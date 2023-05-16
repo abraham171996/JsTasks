@@ -1,0 +1,47 @@
+.grey{
+    background-color: grey;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: rgb(16, 1, 1);
+    font-size: 24px;
+    font-weight: 600;
+    transition: .4s;
+}
+.btn:hover{
+    transform: scale(1.09);
+}
+.btn-grey{
+    background-color: gray;
+}
+.btn-yellow{
+    background-color: yellow;
+}
+.btn-blue{
+    background-color: blue;
+}
+.btn-red{
+    background-color: red;
+}
