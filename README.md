@@ -6,3 +6,5 @@ feat:add new js task name is string constructor
 feat:add new js task name is create classes
 feat:add new js tasks name is array es6
 feat:new js task name is api
+(File)
+feat:add new js task name is string to object
