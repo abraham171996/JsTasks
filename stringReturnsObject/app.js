@@ -2,7 +2,7 @@
 function reportLetters(word){
     let obj = {};
     for (let i = 0; i < word.length; i++) {
-        objIndex = word[i];
+       let objIndex = word[i];
         if(obj[objIndex]){
             obj[objIndex]++
         }
