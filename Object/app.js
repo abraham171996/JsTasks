@@ -87,3 +87,38 @@ const greatestValue = (values)=>{
 }
 
 console.log(greatestValue(values2));
+
+
+//squar
+
+let valuesSquar = Object.values(obj1)
+let valuesSquar2 = Object.values(obj2)
+
+const squarObj = (obj)=>{
+   let square = 0
+    for(let i = 0;i<obj.length;i++){
+        if(!isNaN(obj[i])){
+            square=obj[i]**2
+        }
+    }
+    return square
+}
+
+console.log(squarObj(valuesSquar));
+console.log(squarObj(valuesSquar2));
+
+
+//Write a function that returns the properties of the values ​​contained in the object as a check string
+
+function getStringProperties(obj) {
+    const properties = [];
+    for (let key in obj) {
+      if (typeof obj[key] === 'string') {
+        properties.push(key);
+      }
+    }
+    return properties;
+  }
+
+  console.log(getStringProperties(obj1));
+  console.log(getStringProperties(obj2));
