@@ -122,3 +122,14 @@ function getStringProperties(obj) {
 
   console.log(getStringProperties(obj1));
   console.log(getStringProperties(obj2));
+
+  //The function should return a string combining the properties of that object with commas. For example, if the given object is {name:'ali', age:12}, it should return the name,age string.
+
+let objj = {ad:'ali', age:12}
+
+function convertObjToStr(n){
+    let newObj = Object.keys(n)
+    return newObj.join(",")
+}
+
+console.log(convertObjToStr(objj));
