@@ -12,3 +12,4 @@ feat:add new js task name is string
 feat:add new js task name is object
 feat:add new js task name is array
 "feat: added new js task to given object"
+"feat: added new js task to given object"
