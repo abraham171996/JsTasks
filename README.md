@@ -10,3 +10,4 @@ feat:new js task name is api
 feat:add new js task name is string to object
 feat:add new js task name is string
 feat:add new js task name is object
+feat:add new js task name is array
