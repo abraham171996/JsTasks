@@ -13,3 +13,4 @@ feat:add new js task name is object
 feat:add new js task name is array
 "feat: added new js task to given object"
 "feat: added new js task to given object"
+feat:add update js task name is api
